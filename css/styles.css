@@ -1,0 +1,198 @@
+h1{
+  font-family: "lobster";
+  color:white;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2{
+    font-family:"Cormorant Garamond-bold";
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+h3{
+    font-family: montserrat-bold;
+    font-weight: bolder;
+  }
+p{
+    padding:0 8%;
+    color:darkgrey;
+  }
+
+
+/* TITLE */
+
+#title{
+background-color: #ff4c68;
+
+padding-bottom: 7%;
+
+}
+
+
+.container-fluid{
+  padding: 3% 5% ;
+}
+@media (min-width:1050px) {
+  .dog{
+    transform:rotate(25deg);
+    position:relative;
+    left:20%;
+    width:70;
+    height:80%;
+
+
+  }
+  .first-row{
+    height:290px;
+  }
+  .container-fluid{
+    padding: 3% 15% ;
+  }
+}
+@media (max-width:532px) {
+  .container-fluid{
+    paddding: 3% 0;
+  }
+  .dog{
+    padding-top:10px;
+    width:50%;
+    height:100%;
+    position:relative;
+    padding-top: 6%;
+    }
+    h1{
+      line-height: 1.3;
+    }
+    .instead-row{
+      text-align: center;
+    }
+  }
+@media (min-width:532px) and (max-width:1050px) {
+.dog{
+  width:50%;
+  height:10  0%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.instead-row{
+  margin: 60px ;
+  text-align: center;
+
+}
+}
+
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2rem;
+}
+.navbar{
+  padding:0 0 4rem;
+  font-weight: boldCormorant Garamond;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family:"ubuntu-light";
+}
+
+/* features */
+@media (min-width:900px) {
+  #features{
+    position:relative;
+    z-index:1;
+    background-color: white;
+  }
+}
+#features{
+   padding: 4% ;
+  background-color: white;
+
+}
+.feature-box{
+  text-align: center;
+}
+
+.fas{
+  color: #ef8172;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color:white;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+.testimonials-img{
+   border-radius:100%;
+   width:10%;
+}
+
+#press{
+  margin:  auto;
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 4%;
+}
+.press-logo{
+width:15%;
+margin: 0 25px;
+}
+
+/* card */
+.card{
+
+  margin: 5%;
+}
+#pricing{
+  text-align: center;
+  padding:5%;
+}
+
+/* CTA */
+
+#cta{
+  background-color: #ff4c68;
+  color:#fff;
+  font-family: montserrat;
+  font-size: 6rem;
+  height:400px;
+  padding:10% 10%;
+  text-align:center;
+}
+.cta-heading{
+  font-size:3rem;
+  padding:0 5%;
+}
+
+/* FOOTER */
+
+#footer{
+  height:250px;
+  text-align: center;
+  padding: 10% 10%;
+}
+.icons{
+  color: black;
+  text-align:center;
+}
+.fa-envelope{
+color: black;
+padding-left: 12px;
+}
+.fa-facebook{
+  padding-left: 12px;
+}
+.fa-twitter{
+  padding-left: 12px;
+}
+.fa-instagram{
+  padding-left: 12px;
+}
